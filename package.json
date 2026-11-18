@@ -1,0 +1,12 @@
+{
+  "name": "healthtech-citation-collector",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/citation_workflow.ts",
+    "test": "node --experimental-strip-types src/citation_workflow.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "openai": "^4.80.0", "zod": "^3.24.1" },
+  "devDependencies": { "typescript": "^5.7.2", "@types/node": "^22.10.0" }
+}
